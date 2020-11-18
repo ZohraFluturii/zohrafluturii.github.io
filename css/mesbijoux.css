@@ -18,3 +18,22 @@
 .conditions{
   background-color: #6c757d;
 }
+
+.image-bijoux{
+  border-radius: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.container-bijoux{
+  padding-bottom: 70px;
+}
+
+.info-bijoux{
+  vertical-align:middle;
+  display: table-cell;
+}
+.bijoux-titre{
+  font-size: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+}

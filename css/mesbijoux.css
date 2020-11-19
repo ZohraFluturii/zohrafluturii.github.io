@@ -24,6 +24,10 @@
   padding-top: 20px;
   padding-bottom: 20px;
 }
+.image-container{
+  border-radius: 50px;
+
+}
 .container-bijoux{
   padding-bottom: 70px;
 }
@@ -36,4 +40,18 @@
   font-size: 30px;
   padding-bottom: 20px;
   text-align: center;
+}
+.image-dynamique {
+        position: relative;
+        display: inline-block;
+    }
+.image-dynamique .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.image-dynamique:hover .img-top {
+    display: inline;
 }

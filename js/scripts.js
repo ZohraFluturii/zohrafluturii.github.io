@@ -5,8 +5,8 @@
 
 
 (function($) {
-    "use strict"; 
-	
+    "use strict";
+
     /* Navbar Scripts */
     // jQuery to collapse the navbar on scroll
     $(window).on('scroll load', function() {
@@ -16,7 +16,7 @@
 			$(".fixed-top").removeClass("top-nav-collapse");
 		}
     });
-    
+
 	// jQuery for page scrolling feature - requires jQuery Easing plugin
 	$(function() {
 		$(document).on('click', 'a.page-scroll', function(event) {
@@ -52,7 +52,7 @@
     /* Rotating Text - Morphtext */
 	$("#js-rotating").Morphext({
 		// The [in] animation type. Refer to Animate.css for a list of available animations.
-		animation: "fadeIn",
+		
 		// An array of phrases to rotate are created based on this separator. Change it if you wish to separate the phrases differently (e.g. So Simple | Very Doge | Much Wow | Such Cool).
 		separator: ",",
 		// The delay between the changing of each phrase in milliseconds.
@@ -61,8 +61,8 @@
 			// Called after the entrance animation is executed.
 		}
     });
-    
-    
+
+
     /* Card Slider - Swiper */
 	var cardSlider = new Swiper('.card-slider', {
 		autoplay: {
@@ -150,7 +150,7 @@
 		}
     });
 
-    
+
     /* Video Lightbox - Magnific Popup */
     $('.popup-youtube, .popup-vimeo').magnificPopup({
         disableOn: 0,
@@ -162,8 +162,8 @@
         iframe: {
             patterns: {
                 youtube: {
-                    index: 'youtube.com/', 
-                    id: function(url) {        
+                    index: 'youtube.com/',
+                    id: function(url) {
                         var m = url.match(/[\\?\\&]v=([^\\?\\&]+)/);
                         if ( !m || !m[1] ) return null;
                         return m[1];
@@ -171,8 +171,8 @@
                     src: 'https://www.youtube.com/embed/%id%?autoplay=1'
                 },
                 vimeo: {
-                    index: 'vimeo.com/', 
-                    id: function(url) {        
+                    index: 'vimeo.com/',
+                    id: function(url) {
                         var m = url.match(/(https?:\/\/)?(www.)?(player.)?vimeo.com\/([a-z]*\/)*([0-9]{6,11})[?]?.*/);
                         if ( !m || !m[5] ) return null;
                         return m[5];
@@ -201,7 +201,7 @@
     /* Counter - CountTo */
 	var a = 0;
 	$(window).scroll(function() {
-		if ($('#counter').length) { // checking if CountTo section exists in the page, if not it will not run the script and avoid errors	
+		if ($('#counter').length) { // checking if CountTo section exists in the page, if not it will not run the script and avoid errors
 			var oTop = $('#counter').offset().top - window.innerHeight;
 			if (a == 0 && $(window).scrollTop() > oTop) {
 			$('.counter-value').each(function() {
@@ -239,7 +239,7 @@
 			$(this).removeClass('notEmpty');
 		}
 	});
-	
+
 
 	/* Contact Form */
     $("#contactForm").validator().on("submit", function(event) {
@@ -262,7 +262,7 @@
         $.ajax({
             type: "POST",
             url: "php/contactform-process.php",
-            data: "name=" + name + "&email=" + email + "&message=" + message, 
+            data: "name=" + name + "&email=" + email + "&message=" + message,
             success: function(text) {
                 if (text == "success") {
                     cformSuccess();

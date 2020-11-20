@@ -51,49 +51,48 @@
 
             <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
                 <ul class="navbar-nav ml-auto">
-                  <li class="nav-item"><form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
-                                      <input type="hidden" name="cmd" value="_s-xclick">
-                                      <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
-                                      <input type="image" src="images/panier.png" width="35" height="30"border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
-                                      <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
-                                      </form>
-                                    </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="article.html">Présentation <span class="sr-only">(current)</span></a>
-                    </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Créations</a>
+                      <div class="dropdown-menu" aria-labelledby="dropdown01">
+                          <a class="dropdown-item page-scroll" href="#colliers">Colliers</a>
+                          <a class="dropdown-item page-scroll" href="#boucles">Boucles d'oreilles</a>
+                          <a class="dropdown-item page-scroll" href="#bracelets">Bracelets</a>
+                          <a class="dropdown-item page-scroll" href="#bagues">Bagues</a>
+                      </div>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link page-scroll" href="#contact">Contact</a>
+                  </li>
 
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Créations</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdown01">
-                            <a class="dropdown-item page-scroll" href="#Colliers">Colliers</a>
-                            <a class="dropdown-item page-scroll" href="#Boucles">Boucles d'oreilles</a>
-                            <a class="dropdown-item page-scroll" href="#Bracelets">Bracelets</a>
-                            <a class="dropdown-item page-scroll" href="#Bagues">Bagues</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#Contact">Contact</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#Conditions">Conditions de vente</a>
-                    </li>
+                  <li class="nav-item">
+                      <a class="nav-link page-scroll" href="#infos">Infos</a>
+                  </li>
                 </ul>
                 <span class="nav-item social-icons">
                     <span class="fa-stack">
-                        <a href="#your-link">
+                        <a href="https://www.facebook.com" target="_blank">
                             <i class="fas fa-circle fa-stack-2x"></i>
                             <i class="fab fa-facebook-f fa-stack-1x"></i>
                         </a>
                     </span>
                     <span class="fa-stack">
-                        <a href="#your-link">
+                        <a href="https://www.instagram.com/artezaiba/" target="_blank">
                             <i class="fas fa-circle fa-stack-2x"></i>
-                            <i class="fab fa-twitter fa-stack-1x"></i>
+                            <i class="fab fa-instagram fa-stack-1x"></i>
                         </a>
                     </span>
                 </span>
+                <div class="dropdown-panier">
+                  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+                    <input type="image" src="images/panier.png" width="35" height="30"border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+                  </form>
+                </div>
+
+
             </div> <!-- end of navbar-collapse -->
         </div> <!-- end of container -->
     </nav> <!-- end of navbar -->
@@ -106,10 +105,8 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="text-container titre">
+
                         <h1><span id="js-rotating">ARTEZAÏBA</span> CRÉATIONS</h1>
-                        <p class="p-large">Je m'appelle Zohra et je suis créatrice de bijoux</p>
-                        <a class="btn-solid-lg" href="#your-link"><i class="fab fa-apple"></i></a>
-                        <a class="btn-solid-lg" href="#your-link"><i class="fab fa-google-play"></i></a>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -119,10 +116,25 @@
 
 
 
+    <div class="slider-2" id="presentation">
+      <div class="container">
+          <div class="row">
+            <div class="col-lg-12 presentation-text">
+              <p class="p-large">
+                Mes bijoux sont artisanaux et uniques. <br>
+                J’utilise de nombreuses techniques, (macramé, tissage, sertissage, tressage...), et je favorise la récupération et l'utilisation de matériaux naturels et transformés (bois, cuir, pierres naturelles, plumes, coquillages, coraux, corne, verre, cristaux, métaux, laine, coton).<br>
+                Je prends les commandes personnalisées, n’hésitez donc pas à me contacter par mail, ou sur Instagram. <br>
+                Bonne visite ! <br>
+                Zohra <br>
+              </p>
+            </div>
+          </div>
+      </div>
+    </div>
 
 
     <!-- Screenshots -->
-    <div class="slider-2" id="Colliers">
+    <div class="slider-2 collier" id="colliers">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -132,7 +144,7 @@
             </div> <!-- end of row -->
 
             <div class="row">
-              <div class="container-bijoux col-lg-6">
+              <div class="colliers-container col-lg-6">
                 <div class="bijoux-titre">
                   Anastasia
                 </div>
@@ -143,14 +155,19 @@
                 <div class="bijoux-texte">
                   Crystal de roche et zwarovsky
                 </div>
+                <div class="bijoux-prix">
+                  9000 €
+                </div>
+                <div class="bouton-paypal">
                   <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                     <input type="hidden" name="cmd" value="_s-xclick">
                     <input type="hidden" name="hosted_button_id" value="PHHGW6HM295AU">
                     <input type="image" src="images/ajoutpanier.png" width="200" height="40" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
                     <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
                   </form>
+                </div>
               </div>
-              <div class="container-bijoux col-lg-6">
+              <div class="colliers-container col-lg-6">
                 <div class="bijoux-titre">
                   Kira
                 </div>
@@ -161,17 +178,23 @@
                 <div class="bijoux-texte">
                   Améthyste, crystal de roche, hématite, coquillages, zwarovski
                 </div>
-                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
-                  <input type="hidden" name="cmd" value="_s-xclick">
-                  <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
-                  <input type="image" src="https://www.paypalobjects.com/fr_FR/FR/i/btn/btn_viewcart_LG.gif" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
-                  <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
-                </form>
+                <div class="bijoux-prix">
+                  9000 €
+                </div>
+                <div class="bouton-paypal">
+                  <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="PHHGW6HM295AU">
+                    <input type="image" src="images/ajoutpanier.png" width="200" height="40" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+                  </form>
+                </div>
+
               </div>
             </div>
 
             <div class="row">
-              <div class="container-bijoux col-lg-6">
+              <div class="colliers-container col-lg-6">
                 <div class="bijoux-titre">
                   Anya
                 </div>
@@ -182,14 +205,19 @@
                 <div class="bijoux-texte">
                   Collier structuré violet : pendentif fluorite, crystal de roche, améthyste, zwarovski
                 </div>
-                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
-                <input type="hidden" name="cmd" value="_s-xclick">
-                <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
-                <input type="image" src="https://www.paypalobjects.com/fr_FR/FR/i/btn/btn_viewcart_LG.gif" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
-                <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
-                </form>
+                <div class="bijoux-prix">
+                  9000 €
+                </div>
+                <div class="bouton-paypal">
+                  <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="PHHGW6HM295AU">
+                    <input type="image" src="images/ajoutpanier.png" width="200" height="40" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+                  </form>
+                </div>
               </div>
-              <div class="container-bijoux col-lg-6">
+              <div class="colliers-container col-lg-6">
                 <div class="bijoux-titre">
                 Xenia
                 </div>
@@ -200,16 +228,21 @@
                 <div class="bijoux-texte">
                   Collier structuré doré : zwarovski, laiton
                 </div>
-                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                  <input type="hidden" name="cmd" value="_s-xclick">
-                  <input type="hidden" name="hosted_button_id" value="PHHGW6HM295AU">
-                  <input type="image" src="images/ajoutpanier.png" width="200" height="40" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
-                  <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
-                </form>
+                <div class="bijoux-prix">
+                  9000 €
+                </div>
+                <div class="bouton-paypal">
+                  <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="PHHGW6HM295AU">
+                    <input type="image" src="images/ajoutpanier.png" width="200" height="40" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+                  </form>
+                </div>
               </div>
             </div>
             <div class="row">
-              <div class="container-bijoux col-lg-6">
+              <div class="colliers-container col-lg-6">
                 <div class="bijoux-titre">
                 Indira
                 </div>
@@ -220,14 +253,19 @@
                 <div class="bijoux-texte">
                   Collier tissé bleu : pendentif zwarovski, rocailles
                 </div>
-                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
-                <input type="hidden" name="cmd" value="_s-xclick">
-                <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
-                <input type="image" src="https://www.paypalobjects.com/fr_FR/FR/i/btn/btn_viewcart_LG.gif" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
-                <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
-                </form>
+                <div class="bijoux-prix">
+                  9000 €
+                </div>
+                <div class="bouton-paypal">
+                  <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="PHHGW6HM295AU">
+                    <input type="image" src="images/ajoutpanier.png" width="200" height="40" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+                  </form>
+                </div>
               </div>
-              <div class="container-bijoux col-lg-6">
+              <div class="colliers-container col-lg-6">
                 <div class="bijoux-titre">
                   Varsha
                 </div>
@@ -238,17 +276,22 @@
                 <div class="bijoux-texte">
                   Collier tissé rouge : zwarovski, rocailles
                 </div>
-                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                  <input type="hidden" name="cmd" value="_s-xclick">
-                  <input type="hidden" name="hosted_button_id" value="PHHGW6HM295AU">
-                  <input type="image" src="images/ajoutpanier.png" width="200" height="40" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
-                  <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
-                </form>
+                <div class="bijoux-prix">
+                  9000 €
+                </div>
+                <div class="bouton-paypal">
+                  <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="PHHGW6HM295AU">
+                    <input type="image" src="images/ajoutpanier.png" width="200" height="40" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+                  </form>
+                </div>
               </div>
             </div>
 
             <div class="row">
-              <div class="container-bijoux col-lg-6">
+              <div class="colliers-container col-lg-6">
                 <div class="bijoux-titre">
                   Kali
                 </div>
@@ -259,14 +302,19 @@
                 <div class="bijoux-texte">
                   Collier tissé gris : hématite, rocailles
                 </div>
-                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
-                <input type="hidden" name="cmd" value="_s-xclick">
-                <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
-                <input type="image" src="https://www.paypalobjects.com/fr_FR/FR/i/btn/btn_viewcart_LG.gif" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
-                <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
-                </form>
+                <div class="bijoux-prix">
+                  9000 €
+                </div>
+                <div class="bouton-paypal">
+                  <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="PHHGW6HM295AU">
+                    <input type="image" src="images/ajoutpanier.png" width="200" height="40" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+                  </form>
+                </div>
               </div>
-              <div class="container-bijoux col-lg-6">
+              <div class="colliers-container col-lg-6">
                 <div class="bijoux-titre">
                   Liya
                 </div>
@@ -277,17 +325,22 @@
                 <div class="bijoux-texte">
                   Collier raz de cou double rouge et blanc : zwarovski, rocailles
                 </div>
-                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                  <input type="hidden" name="cmd" value="_s-xclick">
-                  <input type="hidden" name="hosted_button_id" value="PHHGW6HM295AU">
-                  <input type="image" src="images/ajoutpanier.png" width="200" height="40" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
-                  <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
-                </form>
+                <div class="bijoux-prix">
+                  9000 €
+                </div>
+                <div class="bouton-paypal">
+                  <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="PHHGW6HM295AU">
+                    <input type="image" src="images/ajoutpanier.png" width="200" height="40" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+                  </form>
+                </div>
               </div>
             </div>
 
             <div class="row">
-              <div class="container-bijoux col-lg-6">
+              <div class="colliers-container col-lg-6">
                 <div class="bijoux-titre">
                   Aïna
                 </div>
@@ -298,14 +351,19 @@
                 <div class="bijoux-texte">
                   Collier double rose et blanc : zwarovski, rocailles
                 </div>
-                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
-                <input type="hidden" name="cmd" value="_s-xclick">
-                <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
-                <input type="image" src="https://www.paypalobjects.com/fr_FR/FR/i/btn/btn_viewcart_LG.gif" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
-                <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
-                </form>
+                <div class="bijoux-prix">
+                  9000 €
+                </div>
+                <div class="bouton-paypal">
+                  <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="PHHGW6HM295AU">
+                    <input type="image" src="images/ajoutpanier.png" width="200" height="40" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+                  </form>
+                </div>
               </div>
-              <div class="container-bijoux col-lg-6">
+              <div class="colliers-container col-lg-6">
                 <div class="bijoux-titre">
                   Yuki
                 </div>
@@ -316,17 +374,22 @@
                 <div class="bijoux-texte">
                   Collier raz de cou bleu et marron : pendentif, zwarovski, rocailles
                 </div>
-                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                  <input type="hidden" name="cmd" value="_s-xclick">
-                  <input type="hidden" name="hosted_button_id" value="PHHGW6HM295AU">
-                  <input type="image" src="images/ajoutpanier.png" width="200" height="40" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
-                  <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
-                </form>
+                <div class="bijoux-prix">
+                  9000 €
+                </div>
+                <div class="bouton-paypal">
+                  <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="PHHGW6HM295AU">
+                    <input type="image" src="images/ajoutpanier.png" width="200" height="40" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+                  </form>
+                </div>
               </div>
             </div>
 
             <div class="row">
-              <div class="container-bijoux col-lg-6">
+              <div class="colliers-container col-lg-6">
                 <div class="bijoux-titre">
                   Aïko
                 </div>
@@ -337,14 +400,19 @@
                 <div class="bijoux-texte">
                   Collier orange et rouge : zwarovski, rocailles, métal
                 </div>
-                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
-                <input type="hidden" name="cmd" value="_s-xclick">
-                <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
-                <input type="image" src="https://www.paypalobjects.com/fr_FR/FR/i/btn/btn_viewcart_LG.gif" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
-                <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
-                </form>
+                <div class="bijoux-prix">
+                  9000 €
+                </div>
+                <div class="bouton-paypal">
+                  <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="PHHGW6HM295AU">
+                    <input type="image" src="images/ajoutpanier.png" width="200" height="40" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+                  </form>
+                </div>
               </div>
-              <div class="container-bijoux col-lg-6">
+              <div class="colliers-container col-lg-6">
                 <div class="bijoux-titre">
                   Yoko
                 </div>
@@ -355,17 +423,22 @@
                 <div class="bijoux-texte">
                   Collier bleu : zwarovski, rocailles
                 </div>
-                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                  <input type="hidden" name="cmd" value="_s-xclick">
-                  <input type="hidden" name="hosted_button_id" value="PHHGW6HM295AU">
-                  <input type="image" src="images/ajoutpanier.png" width="200" height="40" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
-                  <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
-                </form>
+                <div class="bijoux-prix">
+                  9000 €
+                </div>
+                <div class="bouton-paypal">
+                  <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="PHHGW6HM295AU">
+                    <input type="image" src="images/ajoutpanier.png" width="200" height="40" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+                  </form>
+                </div>
               </div>
             </div>
 
             <div class="row">
-              <div class="container-bijoux col-lg-6">
+              <div class="colliers-container col-lg-6">
                 <div class="bijoux-titre">
                 Tierra de fuego
                 </div>
@@ -376,14 +449,19 @@
                 <div class="bijoux-texte">
                   Collier jaune et ciel : bois, graines, œil de tigre, turquoise, kallaite verte, hématite
                 </div>
-                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
-                <input type="hidden" name="cmd" value="_s-xclick">
-                <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
-                <input type="image" src="https://www.paypalobjects.com/fr_FR/FR/i/btn/btn_viewcart_LG.gif" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
-                <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
-                </form>
+                <div class="bijoux-prix">
+                  9000 €
+                </div>
+                <div class="bouton-paypal">
+                  <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="PHHGW6HM295AU">
+                    <input type="image" src="images/ajoutpanier.png" width="200" height="40" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+                  </form>
+                </div>
               </div>
-              <div class="container-bijoux col-lg-6">
+              <div class="colliers-container col-lg-6">
                 <div class="bijoux-titre">
                 Tierra de lava
                 </div>
@@ -394,17 +472,22 @@
                 <div class="bijoux-texte">
                   Collier orange : cornaline, hématite, bois
                 </div>
-                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                  <input type="hidden" name="cmd" value="_s-xclick">
-                  <input type="hidden" name="hosted_button_id" value="PHHGW6HM295AU">
-                  <input type="image" src="images/ajoutpanier.png" width="200" height="40" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
-                  <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
-                </form>
+                <div class="bijoux-prix">
+                  9000 €
+                </div>
+                <div class="bouton-paypal">
+                  <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="PHHGW6HM295AU">
+                    <input type="image" src="images/ajoutpanier.png" width="200" height="40" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+                  </form>
+                </div>
               </div>
             </div>
 
             <div class="row">
-              <div class="container-bijoux col-lg-6">
+              <div class="colliers-container col-lg-6">
                 <div class="bijoux-titre">
                 Tierra volcánica
                 </div>
@@ -415,12 +498,17 @@
                 <div class="bijoux-texte">
                   Collier vert et orange : pendentif unakite, aventurine, corail, pierre, zwarovski
                 </div>
-                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
-                <input type="hidden" name="cmd" value="_s-xclick">
-                <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
-                <input type="image" src="https://www.paypalobjects.com/fr_FR/FR/i/btn/btn_viewcart_LG.gif" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
-                <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
-                </form>
+                <div class="bijoux-prix">
+                  9000 €
+                </div>
+                <div class="bouton-paypal">
+                  <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="PHHGW6HM295AU">
+                    <input type="image" src="images/ajoutpanier.png" width="200" height="40" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+                  </form>
+                </div>
               </div>
             </div>
 
@@ -432,165 +520,504 @@
 
 
     <!-- Screenshots -->
-    <div class="slider-2 boucles" id="Boucles">
+    <div class="slider-2 boucles" id="boucles">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <h2 class="h2-heading">Boucles d'oreilles</h2>
-                    <hr class="hr-heading">
-                </div> <!-- end of col -->
+              <div class="col-lg-12">
+                  <h2 class="h2-heading">Boucles d'oreilles</h2>
+                  <hr class="hr-heading">
+              </div> <!-- end of col -->
             </div> <!-- end of row -->
             <div class="row">
               <div class="boucles-container col-lg-6">
-                  <div class="image-container image-dynamique">
-                    <img class="img-fluid image-bijoux" src="images/boucles/xiomara1.jpg" alt="alternative">
-                    <img class="img-fluid image-bijoux img-top" src="images/boucles/xiomara.jpg" alt="alternative">
+                <div class="bijoux-titre">
+                  Anastasia
+                </div>
+                <div class="image-container image-dynamique">
+                  <img class="img-fluid image-bijoux" src="images/boucles/xiomara1.jpg" alt="alternative">
+                  <img class="img-fluid image-bijoux img-top" src="images/boucles/xiomara.jpg" alt="alternative">
+                </div>
+                <div class="bijoux-texte">
+                  Crystal de roche et zwarovsky
+                </div>
+                <div class="bijoux-prix">
+                  9000 €
+                </div>
+                <div class="bouton-paypal">
+                  <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="PHHGW6HM295AU">
+                    <input type="image" src="images/ajoutpanier.png" width="200" height="40" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+                  </form>
                 </div>
               </div>
               <div class="boucles-container col-lg-6">
-                  <div class="image-container image-dynamique">
-                    <img class="img-fluid image-bijoux" src="images/boucles/quetzal1.jpg" alt="alternative">
-                    <img class="img-fluid image-bijoux img-top" src="images/boucles/quetzal.jpg" alt="alternative">
+                <div class="bijoux-titre">
+                  Anastasia
                 </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="boucles-container col-lg-6">
-                  <div class="image-container image-dynamique">
-                    <img class="img-fluid image-bijoux" src="images/boucles/saskia1.jpg" alt="alternative">
-                    <img class="img-fluid image-bijoux img-top" src="images/boucles/saskia.jpg" alt="alternative">
+                <div class="image-container image-dynamique">
+                  <img class="img-fluid image-bijoux" src="images/boucles/quetzal1.jpg" alt="alternative">
+                  <img class="img-fluid image-bijoux img-top" src="images/boucles/quetzal.jpg" alt="alternative">
                 </div>
-              </div>
-              <div class="boucles-container col-lg-6">
-                  <div class="image-container image-dynamique">
-                    <img class="img-fluid image-bijoux" src="images/boucles/aku1.jpg" alt="alternative">
-                    <img class="img-fluid image-bijoux img-top" src="images/boucles/aku.jpg" alt="alternative">
+                <div class="bijoux-texte">
+                  Crystal de roche et zwarovsky
                 </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="boucles-container col-lg-6">
-                  <div class="image-container image-dynamique">
-                    <img class="img-fluid image-bijoux" src="images/boucles/isis1.jpg" alt="alternative">
-                    <img class="img-fluid image-bijoux img-top" src="images/boucles/isis.jpg" alt="alternative">
+                <div class="bijoux-prix">
+                  9000 €
                 </div>
-              </div>
-              <div class="boucles-container col-lg-6">
-                  <div class="image-container image-dynamique">
-                    <img class="img-fluid image-bijoux" src="images/boucles/mahalia1.jpg" alt="alternative">
-                    <img class="img-fluid image-bijoux img-top" src="images/boucles/mahalia.jpg" alt="alternative">
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="boucles-container col-lg-6">
-                  <div class="image-container image-dynamique">
-                    <img class="img-fluid image-bijoux" src="images/boucles/aya1.jpg" alt="alternative">
-                    <img class="img-fluid image-bijoux img-top" src="images/boucles/aya.jpg" alt="alternative">
-                </div>
-              </div>
-              <div class="boucles-container col-lg-6">
-                  <div class="image-container image-dynamique">
-                    <img class="img-fluid image-bijoux" src="images/boucles/yasmin1.jpg" alt="alternative">
-                    <img class="img-fluid image-bijoux img-top" src="images/boucles/yasmin.jpg" alt="alternative">
+                <div class="bouton-paypal">
+                  <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="PHHGW6HM295AU">
+                    <input type="image" src="images/ajoutpanier.png" width="200" height="40" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+                  </form>
                 </div>
               </div>
             </div>
             <div class="row">
               <div class="boucles-container col-lg-6">
-                  <div class="image-container image-dynamique">
-                    <img class="img-fluid image-bijoux" src="images/boucles/zenya1.jpg" alt="alternative">
-                    <img class="img-fluid image-bijoux img-top" src="images/boucles/zenya.jpg" alt="alternative">
+                <div class="bijoux-titre">
+                  Anastasia
+                </div>
+                <div class="image-container image-dynamique">
+                  <img class="img-fluid image-bijoux" src="images/boucles/saskia1.jpg" alt="alternative">
+                  <img class="img-fluid image-bijoux img-top" src="images/boucles/saskia.jpg" alt="alternative">
+                </div>
+                <div class="bijoux-texte">
+                  Crystal de roche et zwarovsky
+                </div>
+                <div class="bijoux-prix">
+                  9000 €
+                </div>
+                <div class="bouton-paypal">
+                  <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="PHHGW6HM295AU">
+                    <input type="image" src="images/ajoutpanier.png" width="200" height="40" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+                  </form>
                 </div>
               </div>
               <div class="boucles-container col-lg-6">
-                  <div class="image-container image-dynamique">
-                    <img class="img-fluid image-bijoux" src="images/boucles/soraya1.jpg" alt="alternative">
-                    <img class="img-fluid image-bijoux img-top" src="images/boucles/soraya.jpg" alt="alternative">
+                <div class="bijoux-titre">
+                  Anastasia
                 </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="boucles-container col-lg-6">
-                  <div class="image-container image-dynamique">
-                    <img class="img-fluid image-bijoux" src="images/boucles/zaiba1.jpg" alt="alternative">
-                    <img class="img-fluid image-bijoux img-top" src="images/boucles/zaiba.jpg" alt="alternative">
+                <div class="image-container image-dynamique">
+                  <img class="img-fluid image-bijoux" src="images/boucles/aku1.jpg" alt="alternative">
+                  <img class="img-fluid image-bijoux img-top" src="images/boucles/aku.jpg" alt="alternative">
                 </div>
-              </div>
-              <div class="boucles-container col-lg-6">
-                  <div class="image-container image-dynamique">
-                    <img class="img-fluid image-bijoux" src="images/boucles/assya1.jpg" alt="alternative">
-                    <img class="img-fluid image-bijoux img-top" src="images/boucles/assya.jpg" alt="alternative">
+                <div class="bijoux-texte">
+                  Crystal de roche et zwarovsky
                 </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="boucles-container col-lg-6">
-                  <div class="image-container image-dynamique">
-                    <img class="img-fluid image-bijoux" src="images/boucles/masha1.jpg" alt="alternative">
-                    <img class="img-fluid image-bijoux img-top" src="images/boucles/masha.jpg" alt="alternative">
+                <div class="bijoux-prix">
+                  9000 €
                 </div>
-              </div>
-              <div class="boucles-container col-lg-6">
-                  <div class="image-container image-dynamique">
-                    <img class="img-fluid image-bijoux" src="images/boucles/uma1.jpg" alt="alternative">
-                    <img class="img-fluid image-bijoux img-top" src="images/boucles/uma.jpg" alt="alternative">
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="boucles-container col-lg-6">
-                  <div class="image-container image-dynamique">
-                    <img class="img-fluid image-bijoux" src="images/boucles/sayuri1.jpg" alt="alternative">
-                    <img class="img-fluid image-bijoux img-top" src="images/boucles/sayuri.jpg" alt="alternative">
-                </div>
-              </div>
-              <div class="boucles-container col-lg-6">
-                  <div class="image-container image-dynamique">
-                    <img class="img-fluid image-bijoux" src="images/boucles/inaya1.jpg" alt="alternative">
-                    <img class="img-fluid image-bijoux img-top" src="images/boucles/inaya.jpg" alt="alternative">
+                <div class="bouton-paypal">
+                  <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="PHHGW6HM295AU">
+                    <input type="image" src="images/ajoutpanier.png" width="200" height="40" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+                  </form>
                 </div>
               </div>
             </div>
             <div class="row">
               <div class="boucles-container col-lg-6">
-                  <div class="image-container image-dynamique">
-                    <img class="img-fluid image-bijoux" src="images/boucles/yui1.jpg" alt="alternative">
-                    <img class="img-fluid image-bijoux img-top" src="images/boucles/yui.jpg" alt="alternative">
+                <div class="bijoux-titre">
+                  Anastasia
+                </div>
+                <div class="image-container image-dynamique">
+                  <img class="img-fluid image-bijoux" src="images/boucles/isis1.jpg" alt="alternative">
+                  <img class="img-fluid image-bijoux img-top" src="images/boucles/isis.jpg" alt="alternative">
+                </div>
+                <div class="bijoux-texte">
+                  Crystal de roche et zwarovsky
+                </div>
+                <div class="bijoux-prix">
+                  9000 €
+                </div>
+                <div class="bouton-paypal">
+                  <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="PHHGW6HM295AU">
+                    <input type="image" src="images/ajoutpanier.png" width="200" height="40" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+                  </form>
                 </div>
               </div>
               <div class="boucles-container col-lg-6">
+                <div class="bijoux-titre">
+                  Anastasia
+                </div>
+                <div class="image-container image-dynamique">
+                  <img class="img-fluid image-bijoux" src="images/boucles/mahalia1.jpg" alt="alternative">
+                  <img class="img-fluid image-bijoux img-top" src="images/boucles/mahalia.jpg" alt="alternative">
+                </div>
+                <div class="bijoux-texte">
+                  Crystal de roche et zwarovsky
+                </div>
+                <div class="bijoux-prix">
+                  9000 €
+                </div>
+                <div class="bouton-paypal">
+                  <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="PHHGW6HM295AU">
+                    <input type="image" src="images/ajoutpanier.png" width="200" height="40" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="boucles-container col-lg-6">
+                <div class="bijoux-titre">
+                  Anastasia
+                </div>
+                <div class="image-container image-dynamique">
+                  <img class="img-fluid image-bijoux" src="images/boucles/aya1.jpg" alt="alternative">
+                  <img class="img-fluid image-bijoux img-top" src="images/boucles/aya.jpg" alt="alternative">
+                </div>
+                <div class="bijoux-texte">
+                  Crystal de roche et zwarovsky
+                </div>
+                <div class="bijoux-prix">
+                  9000 €
+                </div>
+                <div class="bouton-paypal">
+                  <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="PHHGW6HM295AU">
+                    <input type="image" src="images/ajoutpanier.png" width="200" height="40" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+                  </form>
+                </div>
+              </div>
+              <div class="boucles-container col-lg-6">
+                <div class="bijoux-titre">
+                  Anastasia
+                </div>
+                <div class="image-container image-dynamique">
+                  <img class="img-fluid image-bijoux" src="images/boucles/yasmin1.jpg" alt="alternative">
+                  <img class="img-fluid image-bijoux img-top" src="images/boucles/yasmin.jpg" alt="alternative">
+                </div>
+                <div class="bijoux-texte">
+                  Crystal de roche et zwarovsky
+                </div>
+                <div class="bijoux-prix">
+                  9000 €
+                </div>
+                <div class="bouton-paypal">
+                  <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="PHHGW6HM295AU">
+                    <input type="image" src="images/ajoutpanier.png" width="200" height="40" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="boucles-container col-lg-6">
+                <div class="bijoux-titre">
+                  Anastasia
+                </div>
+                <div class="image-container image-dynamique">
+                  <img class="img-fluid image-bijoux" src="images/boucles/zenya1.jpg" alt="alternative">
+                  <img class="img-fluid image-bijoux img-top" src="images/boucles/zenya.jpg" alt="alternative">
+                </div>
+                <div class="bijoux-texte">
+                  Crystal de roche et zwarovsky
+                </div>
+                <div class="bijoux-prix">
+                  9000 €
+                </div>
+                <div class="bouton-paypal">
+                  <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="PHHGW6HM295AU">
+                    <input type="image" src="images/ajoutpanier.png" width="200" height="40" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+                  </form>
+                </div>
+              </div>
+              <div class="boucles-container col-lg-6">
+                <div class="bijoux-titre">
+                  Anastasia
+                </div>
+                <div class="image-container image-dynamique">
+                  <img class="img-fluid image-bijoux" src="images/boucles/soraya1.jpg" alt="alternative">
+                  <img class="img-fluid image-bijoux img-top" src="images/boucles/soraya.jpg" alt="alternative">
+                </div>
+                <div class="bijoux-texte">
+                  Crystal de roche et zwarovsky
+                </div>
+                <div class="bijoux-prix">
+                  9000 €
+                </div>
+                <div class="bouton-paypal">
+                  <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="PHHGW6HM295AU">
+                    <input type="image" src="images/ajoutpanier.png" width="200" height="40" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="boucles-container col-lg-6">
+                <div class="bijoux-titre">
+                  Anastasia
+                </div>
+                <div class="image-container image-dynamique">
+                  <img class="img-fluid image-bijoux" src="images/boucles/zaiba1.jpg" alt="alternative">
+                  <img class="img-fluid image-bijoux img-top" src="images/boucles/zaiba.jpg" alt="alternative">
+                </div>
+                <div class="bijoux-texte">
+                  Crystal de roche et zwarovsky
+                </div>
+                <div class="bijoux-prix">
+                  9000 €
+                </div>
+                <div class="bouton-paypal">
+                  <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="PHHGW6HM295AU">
+                    <input type="image" src="images/ajoutpanier.png" width="200" height="40" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+                  </form>
+                </div>
+              </div>
+              <div class="boucles-container col-lg-6">
+                <div class="bijoux-titre">
+                  Anastasia
+                </div>
+                <div class="image-container image-dynamique">
+                  <img class="img-fluid image-bijoux" src="images/boucles/assya1.jpg" alt="alternative">
+                  <img class="img-fluid image-bijoux img-top" src="images/boucles/assya.jpg" alt="alternative">
+                </div>
+                <div class="bijoux-texte">
+                  Crystal de roche et zwarovsky
+                </div>
+                <div class="bijoux-prix">
+                  9000 €
+                </div>
+                <div class="bouton-paypal">
+                  <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="PHHGW6HM295AU">
+                    <input type="image" src="images/ajoutpanier.png" width="200" height="40" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="boucles-container col-lg-6">
+                <div class="bijoux-titre">
+                  Anastasia
+                </div>
+                <div class="image-container image-dynamique">
+                  <img class="img-fluid image-bijoux" src="images/boucles/masha1.jpg" alt="alternative">
+                  <img class="img-fluid image-bijoux img-top" src="images/boucles/masha.jpg" alt="alternative">
+                </div>
+                <div class="bijoux-texte">
+                  Crystal de roche et zwarovsky
+                </div>
+                <div class="bijoux-prix">
+                  9000 €
+                </div>
+                <div class="bouton-paypal">
+                  <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="PHHGW6HM295AU">
+                    <input type="image" src="images/ajoutpanier.png" width="200" height="40" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+                  </form>
+                </div>
+              </div>
+              <div class="boucles-container col-lg-6">
+                <div class="bijoux-titre">
+                  Anastasia
+                </div>
+                <div class="image-container image-dynamique">
+                  <img class="img-fluid image-bijoux" src="images/boucles/uma1.jpg" alt="alternative">
+                  <img class="img-fluid image-bijoux img-top" src="images/boucles/uma.jpg" alt="alternative">
+              </div>
+              <div class="bijoux-texte">
+                Crystal de roche et zwarovsky
+              </div>
+              <div class="bijoux-prix">
+                9000 €
+              </div>
+              <div class="bouton-paypal">
+                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                  <input type="hidden" name="cmd" value="_s-xclick">
+                  <input type="hidden" name="hosted_button_id" value="PHHGW6HM295AU">
+                  <input type="image" src="images/ajoutpanier.png" width="200" height="40" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
+                  <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+                </form>
+              </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="boucles-container col-lg-6">
+                <div class="bijoux-titre">
+                  Anastasia
+                </div>
+                <div class="image-container image-dynamique">
+                  <img class="img-fluid image-bijoux" src="images/boucles/sayuri1.jpg" alt="alternative">
+                  <img class="img-fluid image-bijoux img-top" src="images/boucles/sayuri.jpg" alt="alternative">
+                </div>
+                <div class="bijoux-texte">
+                  Crystal de roche et zwarovsky
+                </div>
+                <div class="bijoux-prix">
+                  9000 €
+                </div>
+                <div class="bouton-paypal">
+                  <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="PHHGW6HM295AU">
+                    <input type="image" src="images/ajoutpanier.png" width="200" height="40" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+                  </form>
+                </div>
+              </div>
+              <div class="boucles-container col-lg-6">
+                <div class="bijoux-titre">
+                  Anastasia
+                </div>
+                <div class="image-container image-dynamique">
+                  <img class="img-fluid image-bijoux" src="images/boucles/inaya1.jpg" alt="alternative">
+                  <img class="img-fluid image-bijoux img-top" src="images/boucles/inaya.jpg" alt="alternative">
+                </div>
+                <div class="bijoux-texte">
+                  Crystal de roche et zwarovsky
+                </div>
+                <div class="bijoux-prix">
+                  9000 €
+                </div>
+                <div class="bouton-paypal">
+                  <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="PHHGW6HM295AU">
+                    <input type="image" src="images/ajoutpanier.png" width="200" height="40" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="boucles-container col-lg-6">
+                <div class="bijoux-titre">
+                  Anastasia
+                </div>
+                <div class="image-container image-dynamique">
+                  <img class="img-fluid image-bijoux" src="images/boucles/yui1.jpg" alt="alternative">
+                  <img class="img-fluid image-bijoux img-top" src="images/boucles/yui.jpg" alt="alternative">
+                </div>
+                <div class="bijoux-texte">
+                  Crystal de roche et zwarovsky
+                </div>
+                <div class="bijoux-prix">
+                  9000 €
+                </div>
+                <div class="bouton-paypal">
+                  <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="PHHGW6HM295AU">
+                    <input type="image" src="images/ajoutpanier.png" width="200" height="40" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+                  </form>
+                </div>
+              </div>
+              <div class="boucles-container col-lg-6">
+                <div class="bijoux-titre">
+                  Anastasia
+                </div>
                   <div class="image-container image-dynamique">
                     <img class="img-fluid image-bijoux" src="images/boucles/nahuatl1.jpg" alt="alternative">
                     <img class="img-fluid image-bijoux img-top" src="images/boucles/nahuatl.jpg" alt="alternative">
                 </div>
+                <div class="bijoux-texte">
+                  Crystal de roche et zwarovsky
+                </div>
+                <div class="bijoux-prix">
+                  9000 €
+                </div>
+                <div class="bouton-paypal">
+                  <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="PHHGW6HM295AU">
+                    <input type="image" src="images/ajoutpanier.png" width="200" height="40" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+                  </form>
+                </div>
               </div>
             </div>
             <div class="row">
               <div class="boucles-container col-lg-6">
-                  <div class="image-container image-dynamique">
-                    <img class="img-fluid image-bijoux" src="images/boucles/zyanya1.jpg" alt="alternative">
-                    <img class="img-fluid image-bijoux img-top" src="images/boucles/zyanya.jpg" alt="alternative">
+                <div class="bijoux-titre">
+                  Anastasia
+                </div>
+                <div class="image-container image-dynamique">
+                  <img class="img-fluid image-bijoux" src="images/boucles/zyanya1.jpg" alt="alternative">
+                  <img class="img-fluid image-bijoux img-top" src="images/boucles/zyanya.jpg" alt="alternative">
+                </div>
+                <div class="bijoux-texte">
+                  Crystal de roche et zwarovsky
+                </div>
+                <div class="bijoux-prix">
+                  9000 €
+                </div>
+                <div class="bouton-paypal">
+                  <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="PHHGW6HM295AU">
+                    <input type="image" src="images/ajoutpanier.png" width="200" height="40" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+                  </form>
                 </div>
               </div>
               <div class="boucles-container col-lg-6">
-                  <div class="image-container image-dynamique">
-                    <img class="img-fluid image-bijoux" src="images/boucles/zuma1.jpg" alt="alternative">
-                    <img class="img-fluid image-bijoux img-top" src="images/boucles/zuma.jpg" alt="alternative">
+                <div class="bijoux-titre">
+                  Anastasia
+                </div>
+                <div class="image-container image-dynamique">
+                  <img class="img-fluid image-bijoux" src="images/boucles/zuma1.jpg" alt="alternative">
+                  <img class="img-fluid image-bijoux img-top" src="images/boucles/zuma.jpg" alt="alternative">
+                </div>
+                <div class="bijoux-texte">
+                  Crystal de roche et zwarovsky
+                </div>
+                <div class="bijoux-prix">
+                  9000 €
+                </div>
+                <div class="bouton-paypal">
+                  <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="PHHGW6HM295AU">
+                    <input type="image" src="images/ajoutpanier.png" width="200" height="40" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
+                    <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+                  </form>
                 </div>
               </div>
             </div>
-
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
+          </div> <!-- end of col -->
+        </div> <!-- end of row -->
+      </div> <!-- end of container -->
     </div> <!-- end of slider-2 -->
     <!-- end of screenshots -->
     <!-- Screenshots -->
 
 
 
-    <div class="slider-2 bracelets" id="Bracelets">
+    <div class="slider-2 bracelets" id="bracelets">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
@@ -600,61 +1027,231 @@
         </div> <!-- end of row -->
         <div class="row">
           <div class="bracelet-container col-lg-6">
-            <div class="image-container-bracelet">
+            <div class="bijoux-titre">
+              Anastasia
+            </div>
+            <div class="image-container">
               <img class="img-fluid image-bijoux" src="images/bracelets/tisseperles.jpg" alt="alternative">
             </div>
+            <div class="bijoux-texte">
+              Crystal de roche et zwarovsky
+            </div>
+            <div class="bijoux-prix">
+              9000 €
+            </div>
+            <div class="bouton-paypal">
+              <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="PHHGW6HM295AU">
+                <input type="image" src="images/ajoutpanier.png" width="200" height="40" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
+                <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+              </form>
+            </div>
           </div>
           <div class="bracelet-container col-lg-6">
-            <div class="image-container-bracelet">
+            <div class="bijoux-titre">
+              Anastasia
+            </div>
+            <div class="image-container">
               <img class="img-fluid image-bijoux" src="images/bracelets/tissebleu.jpg" alt="alternative">
             </div>
+            <div class="bijoux-texte">
+              Crystal de roche et zwarovsky
+            </div>
+            <div class="bijoux-prix">
+              9000 €
+            </div>
+            <div class="bouton-paypal">
+              <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="PHHGW6HM295AU">
+                <input type="image" src="images/ajoutpanier.png" width="200" height="40" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
+                <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+              </form>
+            </div>
           </div>
         </div>
         <div class="row">
           <div class="bracelet-container col-lg-6">
-            <div class="image-container-bracelet">
+            <div class="bijoux-titre">
+              Anastasia
+            </div>
+            <div class="image-container">
               <img class="img-fluid image-bijoux" src="images/bracelets/perlesbleues.jpg" alt="alternative">
             </div>
+            <div class="bijoux-texte">
+              Crystal de roche et zwarovsky
+            </div>
+            <div class="bijoux-prix">
+              9000 €
+            </div>
+            <div class="bouton-paypal">
+              <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="PHHGW6HM295AU">
+                <input type="image" src="images/ajoutpanier.png" width="200" height="40" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
+                <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+              </form>
+            </div>
           </div>
           <div class="bracelet-container col-lg-6">
-            <div class="image-container-bracelet">
+            <div class="bijoux-titre">
+              Anastasia
+            </div>
+            <div class="image-container">
               <img class="img-fluid image-bijoux" src="images/bracelets/perlesrouges.jpg" alt="alternative">
             </div>
+            <div class="bijoux-texte">
+              Crystal de roche et zwarovsky
+            </div>
+            <div class="bijoux-prix">
+              9000 €
+            </div>
+            <div class="bouton-paypal">
+              <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="PHHGW6HM295AU">
+                <input type="image" src="images/ajoutpanier.png" width="200" height="40" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
+                <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+              </form>
+            </div>
           </div>
         </div>
         <div class="row">
           <div class="bracelet-container col-lg-6">
-            <div class="image-container-bracelet">
+            <div class="bijoux-titre">
+              Anastasia
+            </div>
+            <div class="image-container">
               <img class="img-fluid image-bijoux" src="images/bracelets/cuirperles.jpg" alt="alternative">
             </div>
+            <div class="bijoux-texte">
+              Crystal de roche et zwarovsky
+            </div>
+            <div class="bijoux-prix">
+              9000 €
+            </div>
+            <div class="bouton-paypal">
+              <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="PHHGW6HM295AU">
+                <input type="image" src="images/ajoutpanier.png" width="200" height="40" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
+                <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+              </form>
+            </div>
           </div>
           <div class="bracelet-container col-lg-6">
-            <div class="image-container-bracelet">
+            <div class="bijoux-titre">
+              Anastasia
+            </div>
+            <div class="image-container">
               <img class="img-fluid image-bijoux" src="images/bracelets/tressecuir.jpg" alt="alternative">
             </div>
+            <div class="bijoux-texte">
+              Crystal de roche et zwarovsky
+            </div>
+            <div class="bijoux-prix">
+              9000 €
+            </div>
+            <div class="bouton-paypal">
+              <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="PHHGW6HM295AU">
+                <input type="image" src="images/ajoutpanier.png" width="200" height="40" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
+                <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+              </form>
+            </div>
           </div>
         </div>
         <div class="row">
           <div class="bracelet-container col-lg-6">
-            <div class="image-container-bracelet">
+            <div class="bijoux-titre">
+              Anastasia
+            </div>
+            <div class="image-container">
               <img class="img-fluid image-bijoux" src="images/bracelets/macramepierres.jpg" alt="alternative">
             </div>
+            <div class="bijoux-texte">
+              Crystal de roche et zwarovsky
+            </div>
+            <div class="bijoux-prix">
+              9000 €
+            </div>
+            <div class="bouton-paypal">
+              <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="PHHGW6HM295AU">
+                <input type="image" src="images/ajoutpanier.png" width="200" height="40" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
+                <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+              </form>
+            </div>
           </div>
           <div class="bracelet-container col-lg-6">
-            <div class="image-container-bracelet">
+            <div class="bijoux-titre">
+              Anastasia
+            </div>
+            <div class="image-container">
               <img class="img-fluid image-bijoux" src="images/bracelets/braceletspierres.jpg" alt="alternative">
+            </div>
+            <div class="bijoux-texte">
+              Crystal de roche et zwarovsky
+            </div>
+            <div class="bijoux-prix">
+              9000 €
+            </div>
+            <div class="bouton-paypal">
+              <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="PHHGW6HM295AU">
+                <input type="image" src="images/ajoutpanier.png" width="200" height="40" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
+                <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+              </form>
             </div>
           </div>
         </div>
         <div class="row">
           <div class="bracelet-container col-lg-6">
-            <div class="image-container-bracelet">
+            <div class="bijoux-titre">
+              Anastasia
+            </div>
+            <div class="image-container">
               <img class="img-fluid image-bijoux" src="images/bracelets/macrameperles.jpg" alt="alternative">
+            </div>
+            <div class="bijoux-texte">
+              Crystal de roche et zwarovsky
+            </div>
+            <div class="bijoux-prix">
+              9000 €
+            </div>
+            <div class="bouton-paypal">
+              <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="PHHGW6HM295AU">
+                <input type="image" src="images/ajoutpanier.png" width="200" height="40" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
+                <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+              </form>
             </div>
           </div>
           <div class="bracelet-container col-lg-6">
-            <div class="image-container-bracelet">
+            <div class="bijoux-titre">
+              Anastasia
+            </div>
+            <div class="image-container">
               <img class="img-fluid image-bijoux" src="images/bracelets/macramesimple.jpg" alt="alternative">
+            </div>
+            <div class="bijoux-texte">
+              Crystal de roche et zwarovsky
+            </div>
+            <div class="bijoux-prix">
+              9000 €
+            </div>
+            <div class="bouton-paypal">
+              <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="PHHGW6HM295AU">
+                <input type="image" src="images/ajoutpanier.png" width="200" height="40" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
+                <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+              </form>
             </div>
           </div>
         </div>
@@ -664,7 +1261,7 @@
 
 
 
-    <div class="slider-2 bagues" id="Bagues">
+    <div class="slider-2 bagues" id="bagues">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
@@ -674,51 +1271,170 @@
         </div> <!-- end of row -->
         <div class="row">
           <div class="bagues-container col-lg-6">
-            <div class="image-container-bagues">
+            <div class="bijoux-titre">
+              Anastasia
+            </div>
+            <div class="image-container">
               <img class="img-fluid image-bijoux" src="images/bagues/noir.jpg" alt="alternative">
             </div>
+            <div class="bijoux-texte">
+              Crystal de roche et zwarovsky
+            </div>
+            <div class="bijoux-prix">
+              9000 €
+            </div>
+            <div class="bouton-paypal">
+              <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="PHHGW6HM295AU">
+                <input type="image" src="images/ajoutpanier.png" width="200" height="40" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
+                <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+              </form>
+            </div>
           </div>
           <div class="bagues-container col-lg-6">
-            <div class="image-container-bracelet">
+            <div class="bijoux-titre">
+              Anastasia
+            </div>
+            <div class="image-container">
               <img class="img-fluid image-bijoux" src="images/bagues/cornaline.jpg" alt="alternative">
             </div>
+            <div class="bijoux-texte">
+              Crystal de roche et zwarovsky
+            </div>
+            <div class="bijoux-prix">
+              9000 €
+            </div>
+            <div class="bouton-paypal">
+              <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="PHHGW6HM295AU">
+                <input type="image" src="images/ajoutpanier.png" width="200" height="40" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
+                <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+              </form>
+            </div>
           </div>
         </div>
         <div class="row">
           <div class="bagues-container col-lg-6">
-            <div class="image-container-bagues">
+            <div class="bijoux-titre">
+              Anastasia
+            </div>
+            <div class="image-container">
               <img class="img-fluid image-bijoux" src="images/bagues/dore.jpg" alt="alternative">
             </div>
+            <div class="bijoux-texte">
+              Crystal de roche et zwarovsky
+            </div>
+            <div class="bijoux-prix">
+              9000 €
+            </div>
+            <div class="bouton-paypal">
+              <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="PHHGW6HM295AU">
+                <input type="image" src="images/ajoutpanier.png" width="200" height="40" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
+                <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+              </form>
+            </div>
           </div>
           <div class="bagues-container col-lg-6">
-            <div class="image-container-bracelet">
+            <div class="bijoux-titre">
+              Anastasia
+            </div>
+            <div class="image-container">
               <img class="img-fluid image-bijoux" src="images/bagues/boistigre.jpg" alt="alternative">
             </div>
+            <div class="bijoux-texte">
+              Crystal de roche et zwarovsky
+            </div>
+            <div class="bijoux-prix">
+              9000 €
+            </div>
+            <div class="bouton-paypal">
+              <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="PHHGW6HM295AU">
+                <input type="image" src="images/ajoutpanier.png" width="200" height="40" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
+                <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+              </form>
+            </div>
           </div>
         </div>
         <div class="row">
           <div class="bagues-container col-lg-6">
-            <div class="image-container-bagues">
+            <div class="bijoux-titre">
+              Anastasia
+            </div>
+            <div class="image-container">
               <img class="img-fluid image-bijoux" src="images/bagues/blanc.jpg" alt="alternative">
             </div>
+            <div class="bijoux-texte">
+              Crystal de roche et zwarovsky
+            </div>
+            <div class="bijoux-prix">
+              9000 €
+            </div>
+            <div class="bouton-paypal">
+              <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="PHHGW6HM295AU">
+                <input type="image" src="images/ajoutpanier.png" width="200" height="40" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
+                <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+              </form>
+            </div>
           </div>
           <div class="bagues-container col-lg-6">
-            <div class="image-container-bracelet">
+            <div class="bijoux-titre">
+              Anastasia
+            </div>
+            <div class="image-container">
               <img class="img-fluid image-bijoux" src="images/bagues/orange.jpg" alt="alternative">
+            </div>
+            <div class="bijoux-texte">
+              Crystal de roche et zwarovsky
+            </div>
+            <div class="bijoux-prix">
+              9000 €
+            </div>
+            <div class="bouton-paypal">
+              <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="PHHGW6HM295AU">
+                <input type="image" src="images/ajoutpanier.png" width="200" height="40" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
+                <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+              </form>
             </div>
           </div>
         </div>
         <div class="row">
           <div class="bagues-container col-lg-6">
-            <div class="image-container-bagues">
+            <div class="bijoux-titre">
+              Anastasia
+            </div>
+            <div class="image-container">
               <img class="img-fluid image-bijoux" src="images/bagues/rouge.jpg" alt="alternative">
+            </div>
+            <div class="bijoux-texte">
+              Crystal de roche et zwarovsky
+            </div>
+            <div class="bijoux-prix">
+              9000 €
+            </div>
+            <div class="bouton-paypal">
+              <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="PHHGW6HM295AU">
+                <input type="image" src="images/ajoutpanier.png" width="200" height="40" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
+                <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+              </form>
             </div>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="slider-2 contact" id="Contact">
+    <div class="slider-2 contact" id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -734,7 +1450,7 @@
         </div> <!-- end of container -->
     </div> <!-- end of slider-2 -->
 
-    <div class="slider-2 conditions" id="Conditions">
+    <div class="slider-2 conditions" id="infos">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -756,34 +1472,18 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="footer-col first">
-                        <h6>About Leno</h6>
-                        <p class="p-small">Leno is a mobile app HTML Bootstrap landing page template built to help you create great basic websites for apps and grow the user base.</p>
+                        <h6>A propos</h6>
+                        <p class="p-small">Je fais des bijoux</p>
                     </div> <!-- end of footer-col -->
                     <div class="footer-col second">
                         <h6>Links</h6>
-                        <ul class="list-unstyled li-space-lg p-small">
-                            <li>Important: <a href="terms.html">Terms & Conditions</a>, <a href="privacy.html">Privacy Policy</a></li>
-                            <li>Useful: <a href="#">Colorpicker</a>, <a href="#">Icon Library</a>, <a href="#">Illustrations</a></li>
-                            <li>Menu: <a href="article.html">Article</a>, <a href="features.html">Features</a>, <a href="pricing.html">Pricing</a>, <a href="contact.html">Contact</a></li>
-                        </ul>
+
                     </div> <!-- end of footer-col -->
                     <div class="footer-col third">
                         <span class="fa-stack">
                             <a href="#your-link">
                                 <i class="fas fa-circle fa-stack-2x"></i>
                                 <i class="fab fa-facebook-f fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span class="fa-stack">
-                            <a href="#your-link">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-twitter fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span class="fa-stack">
-                            <a href="#your-link">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-pinterest-p fa-stack-1x"></i>
                             </a>
                         </span>
                         <span class="fa-stack">

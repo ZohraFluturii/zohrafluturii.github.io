@@ -2,8 +2,14 @@
   background-color: #3B4270;
   opacity: 0.9;
 }
+.header{
+  padding-bottom: 332px;
+}
 .presentation{
   background-color: #AAAABC;
+}
+.dropdown-panier{
+  padding-left: 20px;
 }
 .collier{
   background: rgb(59,66,112);
@@ -12,47 +18,61 @@
   background: radial-gradient(circle, rgba(59,66,112,1) 0%, rgba(50,96,92,1) 52%, rgba(59,66,112,1) 100%); */
 }
 .boucles{
-  background-color: #3B4270;
+  background: rgb(59,66,112);
+  background: linear-gradient(90deg, rgba(59,66,112,1) 0%, rgba(30,90,94,1) 50%, rgba(59,66,112,1) 100%);
 }
-.bagues{
-  background-color: #865287;
+.bracelets{
+  background: rgb(59,66,112);
+  background: linear-gradient(90deg, rgba(59,66,112,1) 0%, rgba(30,90,94,1) 50%, rgba(59,66,112,1) 100%);
 }
 
-.bracelets{
-  background-color: #703236;
+.bagues{
+  background: rgb(59,66,112);
+  background: linear-gradient(90deg, rgba(59,66,112,1) 0%, rgba(30,90,94,1) 50%, rgba(59,66,112,1) 100%);
 }
 
 .contact{
-  background-color: #FB8875;
+  background: rgb(59,66,112);
+  background: linear-gradient(90deg, rgba(59,66,112,1) 0%, rgba(30,90,94,1) 50%, rgba(59,66,112,1) 100%);
+}
+
+.boucles-container, .bagues-container, .colliers-container, .bracelet-container{
+  padding-top: 70px;
 }
 
 .conditions{
-  background-color: #703236;
+  background: rgb(59,66,112);
+  background: linear-gradient(90deg, rgba(59,66,112,1) 0%, rgba(30,90,94,1) 50%, rgba(59,66,112,1) 100%);
 }
-
-
-
-
-
-
+.presentation-text{
+  text-align: center;
+}
+.bouton-paypal{
+  text-align: center;
+}
+.bijoux-prix{
+  text-align: center;
+  padding-bottom: 20px;
+}
 .titre{
   text-shadow: -6px 3px black;
+  text-align: center;
 }
 .intro{
-    text-align: center;
 }
 
 .image-bijoux{
   border-radius: 50px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  -webkit-box-shadow: 5px 5px 14px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 5px 5px 14px 0px rgba(0,0,0,0.75);
+  box-shadow: 5px 5px 14px 0px rgba(0,0,0,0.75);
 }
+
 .image-container{
-  border-radius: 50px;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
-.container-bijoux{
-  padding-bottom: 70px;
-}
+
 .info-bijoux{
   vertical-align:middle;
   display: table-cell;
@@ -62,6 +82,10 @@
   padding-bottom: 20px;
   text-align: center;
 }
+.bijoux-texte{
+  text-align: center;
+  padding-bottom: 20px;
+}
 .image-dynamique {
   position: relative;
   display: inline-block;
@@ -69,7 +93,7 @@
 .image-dynamique .img-top {
   display: none;
   position: absolute;
-  top: 0;
+  /* top: 0; */
   left: 0;
   z-index: 99;
 }

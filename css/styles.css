@@ -547,7 +547,6 @@ input[type='checkbox'] {
 /*     Navigation     */
 /**********************/
 .navbar {
-	background-color: #262431;
 	font: 600 0.875rem/0.875rem "Open Sans", sans-serif;
 	box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.3);
 }
@@ -1822,15 +1821,12 @@ a:hover.back-to-top {
 
 	/* Navigation */
 	.navbar {
-		padding-top: 1.75rem;
-		background-color: transparent;
 		box-shadow: none;
 		transition: all 0.2s;
 	}
 
 	.navbar.top-nav-collapse {
 		padding-top: 0.5rem;
-		background-color: #262431;
 		box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.3);
 	}
 

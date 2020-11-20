@@ -1,25 +1,45 @@
+.navbar{
+  background-color: #3B4270;
+  opacity: 0.9;
+}
+.presentation{
+  background-color: #AAAABC;
+}
+.collier{
+  background: rgb(59,66,112);
+  background: linear-gradient(90deg, rgba(59,66,112,1) 0%, rgba(30,90,94,1) 50%, rgba(59,66,112,1) 100%);
+  /* background: rgb(59,66,112);
+  background: radial-gradient(circle, rgba(59,66,112,1) 0%, rgba(50,96,92,1) 52%, rgba(59,66,112,1) 100%); */
+}
 .boucles{
-  background-color: #6B6680;
+  background-color: #3B4270;
+}
+.bagues{
+  background-color: #865287;
 }
 
 .bracelets{
-  background-color: #4E4963;
-}
-
-.bagues{
-  background-color: #6B6680;
+  background-color: #703236;
 }
 
 .contact{
-  background-color: #16112C;
-}
-.titre{
-
-  text-shadow: -6px 3px black;
+  background-color: #FB8875;
 }
 
 .conditions{
-  background-color: #6B6680;
+  background-color: #703236;
+}
+
+
+
+
+
+
+.titre{
+  text-shadow: -6px 3px black;
+}
+.intro{
+    text-align: center;
 }
 
 .image-bijoux{
@@ -29,12 +49,10 @@
 }
 .image-container{
   border-radius: 50px;
-
 }
 .container-bijoux{
   padding-bottom: 70px;
 }
-
 .info-bijoux{
   vertical-align:middle;
   display: table-cell;
@@ -44,10 +62,6 @@
   padding-bottom: 20px;
   text-align: center;
 }
-.intro{
-    text-align: center;
-}
-
 .image-dynamique {
   position: relative;
   display: inline-block;

@@ -14,7 +14,7 @@
   background-color: #16112C;
 }
 .titre{
-  text-align: center;
+
   text-shadow: -6px 3px black;
 }
 
@@ -44,7 +44,9 @@
   padding-bottom: 20px;
   text-align: center;
 }
-
+.intro{
+    text-align: center;
+}
 
 .image-dynamique {
   position: relative;

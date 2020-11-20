@@ -1,0 +1,2 @@
+-petit trait entre chaque ligne d'article comme sous les sections
+- trait de secrtion un peu plus large a essayer

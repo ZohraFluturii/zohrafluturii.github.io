@@ -44,17 +44,19 @@
   padding-bottom: 20px;
   text-align: center;
 }
+
+
 .image-dynamique {
-        position: relative;
-        display: inline-block;
-    }
+  position: relative;
+  display: inline-block;
+}
 .image-dynamique .img-top {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 99;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
 }
 .image-dynamique:hover .img-top {
-    display: inline;
+  display: inline;
 }

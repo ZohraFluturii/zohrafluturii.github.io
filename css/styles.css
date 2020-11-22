@@ -2233,7 +2233,13 @@ a:hover.back-to-top {
 	.footer .footer-col.first {
 		width: 22rem;
 		margin-right: 7rem;
+
 	}
+
+  a:hover {
+  	color: #f1f1f8;
+  	text-decoration: underline;
+  }
 
 	.footer .footer-col.second {
 		width: 20rem;

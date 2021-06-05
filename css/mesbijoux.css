@@ -36,12 +36,22 @@
   background: linear-gradient(90deg, rgba(59,66,112,1) 0%, rgba(30,90,94,1) 50%, rgba(59,66,112,1) 100%);
 }
 
+.nouveautes{
+  background: rgb(59,66,112);
+  background: linear-gradient(90deg, rgba(59,66,112,1) 0%, rgba(30,90,94,1) 50%, rgba(59,66,112,1) 100%);
+}
+
+.soldes{
+  background: rgb(59,66,112);
+  background: linear-gradient(90deg, rgba(59,66,112,1) 0%, rgba(30,90,94,1) 50%, rgba(59,66,112,1) 100%);
+}
+
 .contact{
   background: rgb(59,66,112);
   background: linear-gradient(90deg, rgba(59,66,112,1) 0%, rgba(30,90,94,1) 50%, rgba(59,66,112,1) 100%);
 }
 
-.boucles-container, .bagues-container, .colliers-container, .bracelets-container, .bricoles-container{
+.boucles-container, .bagues-container, .colliers-container, .bracelets-container, .bricoles-container, .soldes-container, .nouveautes-container{
   padding-top: 70px;
 }
 

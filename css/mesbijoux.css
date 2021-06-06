@@ -116,3 +116,8 @@
 .image-dynamique:hover .img-top {
   display: inline;
 }
+
+.line {
+  text-decoration: line-through;
+  text-decoration-color: red;
+}

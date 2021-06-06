@@ -62,7 +62,7 @@ h2 {
 h3 {
 	color: #f1f1f8;
 	font: 700 1.5rem/2.25rem "Montserrat", sans-serif;
-  margin-top: 5rem;
+  text-align: center;
 }
 
 h4 {
@@ -119,6 +119,15 @@ a:hover {
   width: 23.5rem;
   height: 0.2rem;
 	margin-top: 0;
+	border: none;
+	background-color: #00c9db;
+}
+.hr-h3 {
+	display: block;
+  width: 8.5rem;
+  height: 0.2rem;
+	margin-top: 0;
+  margin-bottom: 5rem;
 	border: none;
 	background-color: #00c9db;
 }

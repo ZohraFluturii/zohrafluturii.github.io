@@ -1,6 +1,6 @@
 .navbar{
-  background-color: #3B4270;
-  opacity: 0.9;
+  background-color: rgba(204, 198, 184, 80);
+  opacity: 0.95;
 }
 .header{
   padding-bottom: 332px;
@@ -109,5 +109,5 @@
   text-decoration-color: red;
 }
 .navbar-custom {
-    background-color:#ADA89C;
+    background-color: #CCC6B8;
 }
